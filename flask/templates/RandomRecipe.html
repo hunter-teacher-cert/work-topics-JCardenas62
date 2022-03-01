@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title> Recipe Recommendation </title>
+    {% extends "base.html" %}
+  </head>
+
+  <body>
+  {% block content %}
+  <h1><em>**TEST TO SEE IF RANDOM IS WORKING**</em> Your recipe is: {{randRecipe}} </h1>
+  <h1><em>**TEST TO SEE IF PATH DIRECTORY IS WORKING**</em> The directory is: {{dir}} </h1>
+  <h2> So I can get a pdf embedded using a link from an online source, but I can't seem to figure
+    out how to use a pdf from a static folder named "Recipes" into the html. Still working on it.
+
+  <div>
+    <object data= Recipes/{{randRecipe}} type="application/pdf" height="1000" width="100%" >
+    <embed
+        src="Recipes/{{randRecipe}}"
+        type="application/pdf"
+        height="1000"
+        width="100%"
+    ></embed>
+
+
+  {% endblock %}
+
+  </body>
+</html>

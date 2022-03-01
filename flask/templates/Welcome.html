@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+      <title> Home page </title>
+    {% extends "base.html" %}
+
+
+</head>
+
+  <body>
+    {% block content %}
+    <style>
+      .button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+    </style>
+
+<h2>Welcome!</h2>
+  This site was created because I have trouble deciding what to eat throughout the week.
+
+  <br>
+    This tool will serve as a way to recommend recipes from a particular cookbook I love.
+  </br>
+  <br>The cookbook is called "Our Vegan Mexico" by a collection of cooks.
+  It is referenced in the navigation bar.
+</br>
+
+  <br>
+<em> I still have to beautify it </em>
+  </br>
+<a href="EnterName" class="button">Go onto the next step!</a>
+
+
+{% endblock %}
+  </body>
+</html>

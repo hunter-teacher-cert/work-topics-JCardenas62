@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+      <title> Enter Your Name </title>
+    {% extends "base.html" %}
+
+
+</head>
+{% block content %}
+  <body>
+
+<h2>Welcome!</h2>
+  This site was created because I have trouble deciding what to eat throughout the week.
+
+  <br>
+    This tool will serve as a way to recommend recipes from a particular cookbook I love.
+  </br>
+  <br>The cookbook is called "Our Vegan Mexico" by a collection of cooks.
+  It is referenced in the navigation bar.
+</br>
+
+  <br>
+
+  </br>
+
+<form action="#" method = "post">
+  <p>To make this your personal helper, let's start off by getting your name!
+  Enter your name in the box below.</p>
+  <p><input type= "text" name="nm" /></p>
+  <p><input type="submit" value="submit"/></p>
+</form>
+
+{% endblock %}
+  </body>
+</html>
