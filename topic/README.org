@@ -1,12 +1,14 @@
 * Project Readme
 
 * List group members here
- - name 1
- - name 2
- - etc
+ - Jovani Cardenas
+ - Liam Baum
+ - Lyuba Fridman
 
 * Describe your topic here
-
+The fundamentals of neural nets.
  
 * Describe any additional files you've included here 
- 
+ - PDF of presentation
+ - Class Code
+ - Hw Code
